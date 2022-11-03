@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collapse.navbar-collapse .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.collapse.navbar-collapse .navbar-nav .nav-link {
+    width: 110px;
+    text-align: center;
+    margin: 0;
+}
+.collapse.navbar-collapse .navbar-nav a:hover {
+    color: orange;
+}
+.nav-link.active{
+    color: orange !important;
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(gambar/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#content-portofolio {
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(gambar/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#content-portofolio h1 {
+    padding-top: 50px;   
+    color: white;
+}
+#content .container {
+    text-align: center;
+    color: azure;
+}
+#content .abus {
+    color: azure;
+    font-size: 20px;
+    padding: 20px 100px;
+    margin-top: 60px;
+}
+#content .abus.row {
+    background-color: rgb(72, 101, 102);
+}
+#kuliner h2{
+    text-align: center;
+}
+.card {
+    margin: 10px;
+    margin-top: 20px;
+}
+.card .card-body.text-center {
+    background-color: whitesmoke;
+}
+.card img {
+    height: 200px;
+    position: relative;
+}
+#content-abs .aboutUs {
+    background-color: rgb(72, 101, 102);
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    padding-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(gambar/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-contact {
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.form { 
+    padding: 20px;  
+}
+.contact-me {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10px;
+}
+.infoBox .mb-3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.infoBox .mb-3 span {
+    min-width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #0693E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.infoBox .mb-3 a {
+    color: #1A2332;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.mediaSosial {
+    margin-top: 10px;
+    display: flex;
+}
+.mediaSosial li {
+    list-style: none;
+    margin-right: 10px;
+}
+.mediaSosial li a{
+    color: #0693E3;
+    font-size: 2em;
+}
+.mediaSosial li a:hover {
+    color: #2672CD;
+}
+.mediaSosial .mb-3 p {
+    color: #1A2332;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+/* End Contact */
+
+/* Blog */
+#content-blog {
+    padding-top: 80px;
+}
+
+/* About Us */
+
+
+/* End About Us */
+
+/* Footer */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: lightgray;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: dimgray;
+}
+.socials a i{
+    font-size: 1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: ghostwhite;
+}
+.footer-bottom{
+    background: #3d3d3d;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    word-spacing: 2px;
+}
+/* End Footer */
+
+/* Todos */
+#todos {
+    padding-top: 100px;
+    margin: 20px 50px;
+    background-color: rgb(72, 101, 102);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.todo-kegiatan {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border: 5px solid orange;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+.todo-kegiatan::-webkit-scrollbar {
+    width: 0 !important;
+}
+.todo-kegiatan h5 {
+    margin-top: 30px;
+}
+#addTodo {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-plus {
+    color: white;
+    background-color: dodgerblue;
+    padding: 3px;
+    border-radius: 3px;
+}
+#dataKegiatan {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+#dataKegiatan div {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+#dataKegiatan div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+#dataKegiatan div .options i{
+    cursor: pointer;
+}
+#msg {
+    color: red;
+}
+/* END TODOS */
+
+/* Coba */
+#carousel-target {
+    margin-top: 70px;
+    display: grid;
+    height: 500px;
+    width: 50%;
+    width: auto;
+    object-fit: cover;
+}
